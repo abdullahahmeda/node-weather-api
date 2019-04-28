@@ -1,0 +1,52 @@
+:root {
+  --light-white: #888;
+}
+
+body {
+  color: #333;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  max-width: 38rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.header__link {
+  color: var(--light-white);
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.location-form__input {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.location-form__button:disabled {
+  cursor: not-allowed;
+}
+
+.result--success {
+  color: #055c05;
+}
+
+.result--error {
+  color: #b90000;
+}
+
+.footer {
+  color: var(--light-white);
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

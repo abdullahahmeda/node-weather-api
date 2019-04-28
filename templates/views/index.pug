@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title #{title}
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    include ../partials/header
+    p created by #{name}
+    form.location-form
+      input.location-form__input(type="text" placeholder="Location")
+      button.location-form__button Search
+    p.location
+    p.result--success
+    p.result--error
+    include ../partials/footer
+    script(src="/js/app.js")
